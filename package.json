@@ -1,0 +1,22 @@
+{
+    "name": "@farahub/notifications",
+    "version": "1.0.0",
+    "description": "Notifications module for the Farahub framework",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/farahubcom/farahub-notifications.git"
+    },
+    "license": "MIT",
+    "main": "src/module.js",
+    "files": [
+        "src/**/*"
+    ],
+    "dependencies": {
+        "@farahub/framework": "^1.0.3",
+        "lodash": "^4.17.21",
+        "mongoose": "^6.3.1",
+        "mongoose-lean-virtuals": "^0.9.0",
+        "nodemailer": "^6.8.0"
+    },
+    "devDependencies": {}
+}
