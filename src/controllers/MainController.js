@@ -1,11 +1,7 @@
 
-const Controller = require('../../../foundation/Controller');
-const Auth = require('../../authentication/facades/Auth');
-const Workspace = require('../../core/facades/Workspace');
-const Injection = require('../../../facades/Injection');
-const Validator = require('../../../facades/Validator');
+const { Controller } = require('@farahub/framework/foundation');
+const { Auth, Workspace, Injection, Validator, Doc } = require('@farahub/framework/facades');
 const ReadNotificationValidator = require('../validators/ReadNotificationValidator')
-const Doc = require('../../../facades/Doc');
 
 
 class MainController extends Controller {

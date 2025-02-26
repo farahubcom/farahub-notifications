@@ -1,4 +1,4 @@
-const SmsHandler = require("../../sms/facades/SmsHandler");
+const { SmsHandler } = require("@farahub/sms/facades");
 
 class SmsChannel {
 
