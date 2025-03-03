@@ -1,6 +1,6 @@
 {
     "name": "@farahub/notifications",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "Notifications module for the Farahub framework",
     "repository": {
         "type": "git",
@@ -11,6 +11,11 @@
     "files": [
         "src/**/*"
     ],
+    "exports": {
+        "./facades": "./src/facades/index.js",
+        "./facades/*": "./src/facades/*.js",
+        ".": "./src/module.js"
+    },
     "dependencies": {
         "@farahub/framework": "^1.0.3",
         "@farahub/sms": "^1.0.0",
